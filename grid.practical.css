@@ -1,0 +1,29 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.card {
+  padding: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
+}
+.card:hover {
+  box-shadow: 2px 3px 5px;
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+@media screen and (max-width: 1200px) {
+  .product-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 400px) {
+  .product-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

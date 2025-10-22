@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    /* grid-template-rows: 200px 200px 200px; */
+    /* grid-template-columns: 200px 200px 200px; */
+    /* or  */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-rows: repeat(3,200px);
+
+}
+.container>div{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+
+}
+.container div:nth-child(1){
+    background-color: fuchsia;
+    grid-column: 2;
+    grid-row: 2;
+}
+.container div:nth-child(2){
+    background-color: indianred;
+    grid-row: span 2;
+}
+.container div:nth-child(7){
+    background-color: hotpink;
+    grid-column: span 2;
+}

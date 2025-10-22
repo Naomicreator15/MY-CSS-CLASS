@@ -1,0 +1,26 @@
+:root{
+    --primary-color:#8dfcd7;
+    --secondary-color:hsl(60, 69%, 75%);
+
+    --background-color:rgb(169, 153, 153);
+    --foreground-color:peru;
+    --btn:rgba(255, 99, 71, 0.858);
+    --btn-foreground:white;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
+.header{
+    color: var(--primary-color);
+}
+#btn{
+    background-color: var(--btn);
+    color: var(--btn-foreground);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.author{
+    text-align: right;
+}

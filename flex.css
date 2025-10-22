@@ -1,0 +1,35 @@
+.container{
+display: flex;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+}
+
+.container>div{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    
+}
+
+.container>div:nth-child(2){
+    height: 400px;
+}
+
+.container>div:nth-child(1){
+    flex-grow: 1;
+}
+
+.container>div:nth-child(3){
+    flex-shrink: 2;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar>div{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,8 @@
+ol{
+    list-style-type:square;
+    list-style-image:url(./streamline-ultimate-color--fruit-banana.svg) ;
+    list-style-position: inside;
+}
+ol>li{
+    background-color: deeppink;
+}

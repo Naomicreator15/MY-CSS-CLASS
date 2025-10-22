@@ -1,0 +1,41 @@
+* {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+label {
+  width: 30px;
+}
+div {
+  border-bottom: 1.5px solid aqua;
+  padding: 10px;
+}
+.eye {
+  background-image: url(./assets/eyeclosed.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#color {
+  background-color: aqua;
+}
+#p {
+  background-color: rgb(71, 214, 166);
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pa {
+  text-align: center;
+}
+span {
+  color: rgb(5, 205, 205);
+}

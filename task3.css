@@ -1,0 +1,18 @@
+.b{
+    color: rgb(86, 110, 215);
+    text-shadow:2px 2px 5px #333;  ;
+}
+#a{
+    color: rgb(41, 123, 181);
+    text-transform: capitalize;
+}
+h3{
+    color: rgb(41, 123, 181);
+}
+#i{
+    font-style: italic;
+    text-align: end;
+}
+span{
+    color: rgb(41, 123, 181); ;
+}

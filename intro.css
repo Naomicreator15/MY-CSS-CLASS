@@ -1,0 +1,45 @@
+p {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* selectors */
+/* type/element selector */
+body {
+  background-color: black;
+  color: beige;
+}
+h2 {
+  color: brown;}
+/* class selector*/
+.italics {
+  font-style: italic;
+}
+
+/* id selector */
+#subheading {
+  text-align: center;
+}
+
+/* universal selector */
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* child selector*/
+p > span {
+  border: 1px solid orchid;
+}
+/* descendant selector*/
+p u {
+  background-color: blueviolet;
+}
+/* sibling selector */
+/* adjacent sibling selector*/
+p + h2 {
+  background-color: chartreuse;
+}
+/* general sibling selector */
+h1~p{
+    background-color: crimson;
+    color: darkgreen;
+}

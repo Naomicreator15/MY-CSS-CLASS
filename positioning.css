@@ -1,0 +1,44 @@
+.cart{
+    position: relative;
+    bottom: 0;
+    margin-top: 100px;
+}
+/* relative  takes against the initail position .it does the opposite of the command */
+.num {
+  position: absolute;
+  top: -8px;
+  left: 38px;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  text-align: center;
+}
+/* absolute looks at the document screen unlike relative .they are used when you want to place an element on another.
+it is said that the container is relative while the element inside it or child is absolute  */
+/* fixed positioning */
+/* relative is higher than the fixed in stacking order */
+.nav{
+    position: fixed;
+    background-color: lightcoral;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+/* sticky */
+.blackline{
+    height: 20px;
+    background-color: black;
+    position: sticky;
+    top: 66px;
+    z-index: 3;
+}
+/* static */
+/* static means none */
+.box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: mediumvioletred   ;
+}

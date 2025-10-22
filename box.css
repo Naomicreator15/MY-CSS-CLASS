@@ -1,0 +1,30 @@
+.box {
+  background-color: darkolivegreen;
+  height: 200px;
+  /* width: 200px; */
+  overflow-y: scroll;
+  color: white;
+  max-width: 700px;
+  min-width: 500px;
+  /* border-width: 5px;
+  border-style:solid ; */
+  /* border-color: rgb(230, 138, 18) red; */
+
+  border: 2px solid black;
+
+  /* margin: 10px 20px 30px 40px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto; */
+
+  padding: 10px 50px;
+  /* 10px for up and down while 5opx for left and right  */
+
+  border-radius: 5px;
+
+  border-top-right-radius: 100px;
+
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.395);
+  /* box shadow(short hand form) xaxis ,yaxis ,spread ,color  */
+  
+}

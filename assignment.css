@@ -1,0 +1,18 @@
+.marine{
+    background-color: aqua;
+    color: aliceblue;
+}
+.water{
+    background-color: rgb(193, 44, 94);
+    color: aliceblue
+}
+body{
+    background-color: rgb(161, 173, 173);
+}
+#r{
+    background-color: rgb(161, 173, 173);
+    color: aliceblue     
+}
+#p{
+    background-color:white;
+}
